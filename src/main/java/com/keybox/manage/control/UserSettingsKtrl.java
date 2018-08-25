@@ -64,7 +64,8 @@ public class UserSettingsKtrl extends BaseKontroller {
             entry("Black on white", "#FFFFFF,#000000"),
             entry("Gray on black", "#000000,#AAAAAA"),
             entry("Green on black", "#000000,#00FF00"),
-            entry("White on black", "#000000,#FFFFFF")
+            entry("White on black", "#000000,#FFFFFF"),
+            entry("Pink on black", "#FF69B4,#FFFFFF")
     ));
     @Model(name = "publicKey")
     static String publicKey = PrivateKeyDB.getApplicationKey().getPublicKey();
